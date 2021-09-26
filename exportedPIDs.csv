@@ -1,2 +1,3 @@
 "Name", "ShortName", "ModeAndPID", "Equation", "Min Value", "Max Value", "Units", "Header", "startDiagnostic", "stopDiagnostic", "Scale"
+"M/T Oil Temperature","Trans Oil","0x221638","A + B/256 - 40",0,100,"°C","700","","",1
 "Parking Brake","Parking Brake","0x2162","BIT(A:1)",0,100,"","7d0","","",1
