@@ -1,0 +1,2 @@
+"Name", "ShortName", "ModeAndPID", "Equation", "Min Value", "Max Value", "Units", "Header", "startDiagnostic", "stopDiagnostic", "Scale"
+"Parking Brake","Parking Brake","0x2162","BIT(A:1)",0,100,"","7d0","","",1
