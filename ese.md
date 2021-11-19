@@ -1,6 +1,10 @@
 Turning off ESE:
 
 ```
+> atz         # reset ELM chip
+atz
+ELM327 v1.4b
+
 > atsp6       # select protocol 6
 OK
 
