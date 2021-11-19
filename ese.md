@@ -1,16 +1,16 @@
 Turning off ESE:
 
 ```
-> atsp6  # select protocol 6
+> atsp6       # select protocol 6
 OK
 
-> ath1     # turn on ECU headers
+> ath1        # turn on ECU headers
 OK
 
-> atrv     # query voltage
+> atrv        # query voltage
 13.9V
 
-> atsh750  # set obd header
+> atsh750     # set obd header
 OK
 
 > atcra758
@@ -37,7 +37,7 @@ OK
 > 222006
 758 AE 6220060101
 
-> 2E20060100
+> 2E20060100  # turn off ESE (2E20060101 to turn on)
 758 AE 6E2006
 
 > 222006
