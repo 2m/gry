@@ -1,49 +1,54 @@
-Turning off ESE:
 
-```
+
+```sh
 > atz         # reset ELM chip
-atz
 ELM327 v1.4b
+
+> atd         # set all settings to defaults
+OK
 
 > atsp6       # select protocol 6
 OK
 
-> ath1        # turn on ECU headers
+> atcfc1      # can flow control on
 OK
 
-> atrv        # query voltage
-13.9V
-
-> atsh750     # set obd header
+> stcsegr1    # turn CAN Rx segmentation on
 OK
 
-> atcra758
+> stcsegt1    # turn CAN Tx segmentation on
 OK
 
-> atceaAE
+> atsh750     # set the header of transmitted OBD messages
 OK
 
-> attaAE
+> atcra758    # set CAN hardware filter
 OK
 
-> stcfcpc
+> atceaAE     # use CAN extended address hh
 OK
 
-> stcfcpa 750 AE, 758 AE
+> attaAE      # set tester address to hh
 OK
 
-> 3E1
-758 AE 7F3E13
+> stcfcpc     # clear all flow control address pairs
+OK
 
-> 1003
-758 AE 5003003201F4
+> stcfcpa 750 AE, 758 AE   # add flow control address pair
+OK
 
-> 222006
-758 AE 6220060101
+> 222006      # protocol 6 message to check status of ESE (last number in response: 0 - ESE is off, 1 - ESE is on)
+62 20 06 01 01
 
-> 2E20060100  # turn off ESE (2E20060101 to turn on)
-758 AE 6E2006
+> 3E1         # protocol 6 message preparation
+7F 3E 13
 
-> 222006
-758 AE 6220060100
+> 1003        # protocol 6 message preparation
+50 03 00 32 01 F4
+
+> 2E20060100  # protocol 6 message to turn off ESE
+6E 20 06
+
+> 2E20060101  # protocol 6 message to turn on ESE
+6E 20 06
 ```
