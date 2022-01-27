@@ -1,6 +1,6 @@
 {
   "package": "de.kai_morich.serial_bluetooth_terminal",
-  "date": " 20220126-221333",
+  "date": " 20220127-112604",
   "config": {
     "pref_auto_scroll": true,
     "pref_char_delay": "0",
@@ -53,7 +53,7 @@
     "pref_m204_action": 0,
     "pref_m204_mode": 3,
     "pref_m204_name": "K4",
-    "pref_m204_value": "atz\natz",
+    "pref_m204_value": "",
     "pref_m2_action": 0,
     "pref_m2_mode": 0,
     "pref_m2_name": "Check",
