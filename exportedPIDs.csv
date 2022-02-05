@@ -4,19 +4,7 @@
 "Engine Oil Pressure","Eng Oil Press","0x221074"," (((A*256)+B) * 10) / 128 ",0,100,"kPa","700","","",1,0
 "M/T Oil Temperature","Trans Oil","0x221638","A + B/256 - 40",0,100,"°C","700","","",1,0
 "Parking Brake","Parking Brake","0x2162","BIT(A:1)",0,100,"","7d0","","",1,0
-"FL Tire Pressure","FL Tire Pressure","0x221005","B * 0.01373",0,10,"bar","750","atcea2A
- stpc
- atta2A
- stpo","",1,0
-"FR Tire Pressure","FR Tire Pressure","0x221005","H * 0.01373",0,10,"bar","750","atcea2A
- stpc
- atta2A
- stpo","",1,0
-"BR Tire Pressure","BR Tire Pressure","0x221005","D * 0.01373",0,10,"bar","750","atcea2A
- stpc
- atta2A
- stpo","",1,0
-"BL Tire Pressure","BL Tire Pressure","0x221005","F * 0.01373",0,10,"bar","750","atcea2A
- stpc
- atta2A
- stpo","",1,0
+"FL Tire Pressure","FL Tire Pressure","0x221005","B * 0.01373",0,10,"bar","750","atcea2A\nstpc\natta2A\nstpo","",1,0
+"FR Tire Pressure","FR Tire Pressure","0x221005","H * 0.01373",0,10,"bar","750","atcea2A\nstpc\natta2A\nstpo","",1,0
+"BR Tire Pressure","BR Tire Pressure","0x221005","D * 0.01373",0,10,"bar","750","atcea2A\nstpc\natta2A\nstpo","",1,0
+"BL Tire Pressure","BL Tire Pressure","0x221005","F * 0.01373",0,10,"bar","750","atcea2A\nstpc\natta2A\nstpo","",1,0
