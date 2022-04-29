@@ -4,7 +4,8 @@
 "Engine Oil Pressure","Eng Oil Press","0x221074"," (((A*256)+B) * 10) / 128 ",0,100,"kPa","700","","",1,0
 "M/T Oil Temperature","Trans Oil","0x221638","A + B/256 - 40",0,100,"°C","700","","",1,0
 "Parking Brake","Parking Brake","0x2162","BIT(A:1)",0,100,"","7d0","","",1,0
-"Tire Pressure BL","Tire Pressure BL","0x221005","F * 0.01373",0,10,"bar","750","atcea2A\nstpc\natta2A\nstpo","",1,0
-"Tire Pressure BR","Tire Pressure BR","0x221005","D * 0.01373",0,10,"bar","750","atcea2A\nstpc\natta2A\nstpo","",1,0
-"Tire Pressure FL","Tire Pressure FL","0x221005","B * 0.01373",0,10,"bar","750","atcea2A\nstpc\natta2A\nstpo","",1,0
-"Tire Pressure FR","Tire Pressure FR","0x221005","H * 0.01373",0,10,"bar","750","atcea2A\nstpc\natta2A\nstpo","",1,0
+"Steering Angle","Steering Angle","0x221004","((SIGNED(A)*256)+B)*1.5",-410,410,"°","7b3","","",1,0
+"Tire Pressure BL","Tire Pressure BL","0x221005","F * 0.01373",0,10,"bar","750","atcea2A\natta2A","atcea",1,0
+"Tire Pressure BR","Tire Pressure BR","0x221005","H * 0.01373",0,10,"bar","750","atcea2A\natta2A","atcea",1,0
+"Tire Pressure FL","Tire Pressure FL","0x221005","B * 0.01373",0,10,"bar","750","atcea2A\natta2A","atcea",1,0
+"Tire Pressure FR","Tire Pressure FR","0x221005","D * 0.01373",0,10,"bar","750","atcea2A\natta2A","atcea",1,0
