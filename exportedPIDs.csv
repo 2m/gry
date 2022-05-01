@@ -8,14 +8,14 @@
 "Steering Angle","Steering Angle","0x221004","((SIGNED(A)*256)+B)*1.5",-410,410,"°","7b3","","",1,0
 "Temperature Sensor Value in Coupling","Coupling Temp","0x221026","A*2+B*0.1",-20,100,"°C","7B1","","",1,0
 "Tire ID 1 Position","Tire ID1 Pos","0x222021","LOOKUP(A::1=FL:2=FR:3=RL:4=RR)",0,100,"","750","atcea2a\natta2a","",1,0
-"Tire ID 2 Position","Tire ID2 Pos","0x222021","LOOKUP(B::1=FL:2=FR:3=RL:4=RR)",0,100,"","750","atcea2a\natta2a","",1,0
-"Tire ID 3 Position","Tire ID3 Pos","0x222021","LOOKUP(C::1=FL:2=FR:3=RL:4=RR)",0,100,"","750","atcea2a\natta2a","",1,0
-"Tire ID 4 Position","Tire ID4 Pos","0x222021","LOOKUP(D::1=FL:2=FR:3=RL:4=RR)",0,100,"","750","atcea2a\natta2a","",1,0
 "Tire ID 1 Pressure","Tire ID2 Press","0x221005","B * 0.01373",0,10,"bar","750","atcea2A\natta2A","atcea",1,0
-"Tire ID 2 Pressure","Tire ID2 Press","0x221005","D * 0.01373",0,10,"bar","750","atcea2A\natta2A","atcea",1,0
-"Tire ID 3 Pressure","Tire ID3 Press","0x221005","F * 0.01373",0,10,"bar","750","atcea2A\natta2A","atcea",1,0
-"Tire ID 4 Pressure","Tire ID4 Press","0x221005","H * 0.01373",0,10,"bar","750","atcea2A\natta2A","atcea",1,0
 "Tire ID 1 Temperature","Tire ID1 Temp","0x221004","A-40",-30,100,"°C","750","atcea2a\natta2a","",1,0
+"Tire ID 2 Position","Tire ID2 Pos","0x222021","LOOKUP(B::1=FL:2=FR:3=RL:4=RR)",0,100,"","750","atcea2a\natta2a","",1,0
+"Tire ID 2 Pressure","Tire ID2 Press","0x221005","D * 0.01373",0,10,"bar","750","atcea2A\natta2A","atcea",1,0
 "Tire ID 2 Temperature","Tire ID2 Temp","0x221004","B-40",-30,100,"°C","750","atcea2a\natta2a","",1,0
+"Tire ID 3 Position","Tire ID3 Pos","0x222021","LOOKUP(C::1=FL:2=FR:3=RL:4=RR)",0,100,"","750","atcea2a\natta2a","",1,0
+"Tire ID 3 Pressure","Tire ID3 Press","0x221005","F * 0.01373",0,10,"bar","750","atcea2A\natta2A","atcea",1,0
 "Tire ID 3 Temperature","Tire ID3 Temp","0x221004","C-40",-30,100,"°C","750","atcea2a\natta2a","",1,0
+"Tire ID 4 Position","Tire ID4 Pos","0x222021","LOOKUP(D::1=FL:2=FR:3=RL:4=RR)",0,100,"","750","atcea2a\natta2a","",1,0
+"Tire ID 4 Pressure","Tire ID4 Press","0x221005","H * 0.01373",0,10,"bar","750","atcea2A\natta2A","atcea",1,0
 "Tire ID 4 Temperature","Tire ID4 Temp","0x221004","D-40",-30,100,"°C","750","atcea2a\natta2a","",1,0
