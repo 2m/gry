@@ -1,0 +1,96 @@
+{
+  "localUuid": "6c299537865de6c7ea814f96f63da816476fbd825435c26e90ab3f4ff7005a1f",
+  "selectedChannels": [
+    {
+      "deviceType": 5,
+      "priority": 1,
+      "channelIds": [
+        1009,
+        10066,
+        1005,
+        33774,
+        10031
+      ]
+    },
+    {
+      "deviceType": 5,
+      "priority": 2,
+      "channelIds": [
+        10071,
+        1001,
+        1007
+      ]
+    }
+  ],
+  "customChannels": [
+    {
+      "deviceType": 5,
+      "channelId": 1009,
+      "pid": 2232326,
+      "equation": "B-80",
+      "obdHeader": 1968
+    },
+    {
+      "deviceType": 5,
+      "channelId": 10071,
+      "pid": 2232409,
+      "equation": "(B-41)/1.42",
+      "obdHeader": 1792
+    },
+    {
+      "deviceType": 5,
+      "channelId": 1033,
+      "pid": 2232324,
+      "equation": "((b - 11) * 0.1 + 0.06) * 1000",
+      "obdHeader": 1968
+    },
+    {
+      "deviceType": 5,
+      "channelId": 1001,
+      "pid": 2232324,
+      "equation": "((bytesToInt(raw, 1, 1) * 256 + C)-4) * 1.5",
+      "obdHeader": 1971
+    },
+    {
+      "deviceType": 5,
+      "channelId": 1005,
+      "pid": 2233912,
+      "equation": "B + C/256 - 40",
+      "obdHeader": 1792
+    },
+    {
+      "deviceType": 5,
+      "channelId": 33774,
+      "pid": 2232358,
+      "equation": "(B*256+C)/128.0",
+      "obdHeader": 1969
+    },
+    {
+      "deviceType": 5,
+      "channelId": 1007,
+      "pid": 2232436,
+      "equation": "(B*256+C)/12.8",
+      "obdHeader": 1792
+    },
+    {
+      "deviceType": 12,
+      "channelId": 5004,
+      "pid": 1248,
+      "equation": "raw",
+      "obdHeader": 0
+    }
+  ],
+  "info": [
+    {
+      "infoId": 2,
+      "value": "GR Yaris"
+    },
+    {
+      "infoId": 8,
+      "value": "car"
+    }
+  ],
+  "obdProtocol": 0,
+  "obdDefaultHeader": 0,
+  "obdNonStandard": false
+}
